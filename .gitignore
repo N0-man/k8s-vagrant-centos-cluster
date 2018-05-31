@@ -1,0 +1,11 @@
+.vagrant/*
+.DS_Store
+*.tar.gz
+.idea
+.gitignore.swp
+target/*
+.idea/*
+.vagrant/
+project/
+target/
+*.VirtualBox.box

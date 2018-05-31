@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: traefik-ingress
+  namespace: kube-system
+spec:
+  rules:
+  - host: traefik.n0man.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: traefik-ingress-service
+          servicePort: 8080
+  - host: grafana.n0man.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: monitoring-grafana
+          servicePort: 80
