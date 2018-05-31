@@ -1,6 +1,6 @@
 # Setting up a kubernetes cluster with Vagrant, Virtualbox, CentOS, Cockpit
 
-Using vagrant file to build a kubernetes cluster which consists of 1 master and 3 nodes.
+Using vagrant file to build a kubernetes cluster which consists of 1 master and 2 workers.
 
 ### Config
 
