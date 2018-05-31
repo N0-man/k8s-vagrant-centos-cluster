@@ -75,6 +75,8 @@ $ vagrant up
 ```
 Wait about 10 minutes the kubernetes cluster will be setup automatically.
 
+note that current repo folder would be mapped as ```/vagrant``` on VM
+
 #### Connect to kubernetes cluster
 
 There are 3 ways to access the kubernetes cluster.
@@ -109,6 +111,13 @@ kubectl -n kube-system describe secret `kubectl -n kube-system get secret|grep a
 ```
 
 **Note**: You can see the token message from `vagrant up` logs.
+
+**Kubernetes cockpit**
+
+Kubernetes cockpit URL: <https://172.17.8.101:9090>
+
+- If the Cockpit cluster dont show anything then add the apiserver manually. Get the API server address from /etc/kubernetes/apiserve
+
 
 ## Components
 
