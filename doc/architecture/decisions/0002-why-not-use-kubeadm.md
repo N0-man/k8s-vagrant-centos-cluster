@@ -4,7 +4,7 @@ Date: 2018-06-03
 
 ## Status
 
-Accepted
+Superceded by [3. Use only Vagrant and VirtualBox to setup Kubernetes cluster](0003-use-only-vagrant-and-virtualbox-to-setup-kubernetes-cluster.md)
 
 ## Context
 
