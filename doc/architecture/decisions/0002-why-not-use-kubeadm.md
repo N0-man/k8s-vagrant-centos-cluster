@@ -16,7 +16,7 @@ Setup Kubernetes cluster with apiserver, etcd, controller, scheduler without usi
 
 ## Rational
 
-We will document the rational behind the decision made and choices considered
+Hands-on with setting up manually
 
 ## Trade-Off
 
